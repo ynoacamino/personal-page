@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex; 
+  position: relative; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  min-height: 100vh;
+  margin: 0;
+}
+
+.buttonLink {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 5px; 
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #ffffff; 
+  background-color: #000000; 
+  transition: all 300ms;
+  gap: 10px;
+  border: solid 2px transparent;
+  font-weight: bold;
+}
+
+.buttonLink:hover {
+  scale: 1.05;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.header {
+  display: flex; 
+  position: sticky; 
+  top: 0; 
+  z-index: 20; 
+  padding: 15px 20px;
+  justify-content: space-between; 
+  width: 100%; 
+  background: white;
+}
+
+.leftHeader {
+  font-size: 27px;
+  font-weight: bold;
+} 
+
+.rightHeader {
+  display: flex;
+  gap: 20px;
+}
+
+.rightHeader a {
+  width: auto;
+}
+
+.boxPrimary {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.boxPrimary2 {
+  width: 100%;
+  max-width: 900px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 40px;
+}
+
+.divFooter {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.rigthFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.rigthFooter span {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.leftFooter {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftFooter img {
+  width: 28px;
+  filter: invert();
+}
+
+.aboutMe {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 0;
+}
+
+.aboutMe h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.boxAboutMe {
+  display: flex;
+  gap: 30px;
+}
+
+.boxAboutMe img {
+  width: 50%;
+  aspect-ratio: square;
+}
+
+.boxAboutMe div {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gitHub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+.gitHub a {
+  font-size: 40px;
+}
+
+.imgGitHub {
+  width: 100px;
+  height: 100px;
+  filter: invert();
+}
+
+.boxRepo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.boxRepo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  aspect-ratio: 16 / 9;
+  filter: none;
+}
+
+.boxRepo span {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.porta {
+  filter: none;
+  width: 100%;
+  height: auto;
+  border: solid 1px gray;
+  border-radius: 10px;
+}

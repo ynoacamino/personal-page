@@ -47,6 +47,8 @@ a {
   justify-content: space-between; 
   width: 100%; 
   background: white;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .leftHeader {
@@ -56,7 +58,10 @@ a {
 
 .rightHeader {
   display: flex;
+  align-items: center;
+  justify-content:center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .rightHeader a {
